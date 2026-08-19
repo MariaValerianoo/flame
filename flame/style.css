@@ -3,14 +3,36 @@
    ========================================= */
 
 :root {
-  --color-bg: #0f0d0b;
-  --color-bg-alt: #17130f;
-  --color-surface: #1c1712;
-  --color-gold: #d4a039;
-  --color-gold-light: #f0c674;
-  --color-text: #f5efe6;
-  --color-text-muted: #b8ada0;
-  --color-border: #2e2620;
+  /* ===== PALETA FLAME ===== */
+
+  /* Fondo principal - café muy oscuro */
+  --color-bg: #4C1A01;
+
+  /* Fondo de secciones - café rojizo */
+  --color-bg-alt: #763103;
+
+  /* Tarjetas y superficies - vino/café oscuro */
+  --color-surface: #401010;
+
+  /* Dorado oscuro */
+  --color-gold: #AA8044;
+
+  /* Dorado claro para textos y detalles */
+  --color-gold-light: #F2D893;
+
+  /* Texto principal */
+  --color-text: #FFF4E3;
+
+  /* Texto secundario */
+  --color-text-muted: #DBAC67;
+
+  /* Bordes */
+  --color-border: #994204;
+
+  /* Colores adicionales */
+  --color-copper: #B65611;
+  --color-orange-glow: #D1712C;
+
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Poppins', sans-serif;
   --radius: 10px;
@@ -85,13 +107,13 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; }
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: rgba(15, 13, 11, 0.65);
+  background: rgba(76, 26, 1, 0.65);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
   transition: background var(--transition), border-color var(--transition);
 }
 .header.scrolled {
-  background: rgba(15, 13, 11, 0.95);
+  background: rgba(76, 26, 1, 0.95);
   border-bottom-color: var(--color-border);
 }
 
@@ -573,7 +595,7 @@ body.no-scroll { overflow: hidden; }
     top: 78px;
     left: 0;
     width: 100%;
-    background: rgba(15, 13, 11, 0.98);
+    background: rgba(76, 26, 1, 0.98);
     padding: 24px;
     gap: 20px;
     border-bottom: 1px solid var(--color-border);
