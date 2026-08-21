@@ -5,15 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flame II | Carne a la Piedra · Mexicano · Italiano</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Marcellus&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- ===== HEADER ===== -->
 <header class="header" id="header">
   <div class="container header-inner">
-    <a href="#inicio" class="logo"><img src="img/logo1.jpg" alt="Flame II Logo" class="logo-img"></a>
+   <a href="#inicio" class="logo">
+    <img src="img/logo.jpg" alt="Flame II Logo" class="logo-img">
+    <span class="logo-text">FLAME <b>II</b></span></a>
     <nav class="nav" id="nav">
       <a href="#inicio" class="nav-link" data-es="Inicio" data-en="Home">Inicio</a>
       <a href="#nosotros" class="nav-link" data-es="Nosotros" data-en="About">Nosotros</a>
@@ -39,15 +40,55 @@
 <!-- ===== HERO ===== -->
 <section class="hero" id="inicio">
   <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <!-- <p class="hero-kicker" data-es="Hot Stone Grill · Especialistas en Carne a la Piedra" data-en="Hot Stone Grill · Specialists in Stone-Grilled Meat">Hot Stone Grill · Especialistas en Carne a la Piedra</p>
-    <h1 class="hero-title" data-es="Sabores que encienden<br>los sentidos" data-en="Flavors that awaken <br>the senses">Sabores que encienden<br>los sentidos</h1>
-    <p class="hero-subtitle" data-es="Carnes a la piedra, cocina mexicana e italiana en un solo lugar" data-en="Stone-grilled meats, Mexican and Italian cuisine all in one place">Carnes a la piedra, cocina mexicana e italiana en un solo lugar</p> -->
-    <div class="hero-buttons">
-      <button class="btn btn-primary btn-lg" id="openMenuBtnHero" data-es="Ver Carta Completa" data-en="View Full Menu">Ver Carta Completa</button>
-      <a href="#contacto" class="btn btn-outline btn-lg" data-es="Reservar Mesa" data-en="Book a Table">Reservar Mesa</a>
+
+  <div class="container hero-container">
+    <div class="hero-content">
+      <p
+        class="hero-kicker"
+        data-es="♨ HOT STONE GRILL"
+        data-en="♨ HOT STONE GRILL"
+      >
+        ♨ HOT STONE GRILL
+      </p>
+
+      <h1
+        class="hero-title"
+        data-es="Especialistas en carne a la piedra"
+        data-en="Specialists in stone-grilled meat"
+      >
+        Especialistas en carne a la piedra
+      </h1>
+
+      <p
+        class="hero-subtitle"
+        data-es="Cocina italiana y mexicana en el corazón de Guardamar del Segura."
+        data-en="Italian and Mexican cuisine in the heart of Guardamar del Segura."
+      >
+        Cocina italiana y mexicana en el corazón de Guardamar del Segura.
+      </p>
+
+      <div class="hero-buttons">
+        <a
+          href="#contacto"
+          class="btn btn-primary btn-lg"
+          data-es="☎ Reservar mesa"
+          data-en="☎ Book a table"
+        >
+          ☎ Reservar mesa
+        </a>
+
+        <button
+          class="btn btn-outline btn-lg"
+          id="openMenuBtnHero"
+          data-es="🍴 Ver la carta"
+          data-en="🍴 View menu"
+        >
+          🍴 Ver la carta
+        </button>
+      </div>
     </div>
   </div>
+
   <a href="#nosotros" class="scroll-down" aria-label="Bajar">
     <span></span>
   </a>
@@ -206,30 +247,176 @@
 </section>
 
 <!-- ===== CONTACTO ===== -->
+<!-- ===== CONTACTO ===== -->
 <section class="contact" id="contacto">
-  <div class="container contact-grid">
-    <div class="contact-info">
-      <p class="section-kicker" data-es="Visítanos" data-en="Visit Us">Visítanos</p>
-      <h2 class="section-title" data-es="Contacto & Ubicación" data-en="Contact & Location">Contacto & Ubicación</h2>
-      <ul class="contact-list">
-        <li><strong data-es="Dirección:" data-en="Address:">Dirección:</strong> <span data-es="Av. dels Pins, 40, 03140 Guardamar del Segura, Alicante" data-en="Av. dels Pins, 40, 03140 Guardamar del Segura, Alicante">Av. dels Pins, 40, 03140 Guardamar del Segura, Alicante</span></li>
-        <li><strong data-es="Teléfono / WhatsApp:" data-en="Phone / WhatsApp:">Teléfono / WhatsApp:</strong> <a href="https://wa.me/34622319813" target="_blank" rel="noopener">+34 622 319 813</a></li>
-        <li><strong data-es="Horario:" data-en="Hours:">Horario:</strong> <span data-es="Todos los días · 12:00 - 23:30" data-en="Every day · 12:00 PM - 11:30 PM">Todos los días · 12:00 - 23:30</span></li>
-        <li><strong data-es="Email:" data-en="Email:">Email:</strong> reservas@flameii.com</li>
-      </ul>
-      <div class="social-links">
-        <a href="https://www.instagram.com/flameiiguardamar?igsi=b3k5N3YyNXpnM2N2" aria-label="Instagram">Instagram</a>
-        <a href="https://www.facebook.com/share/1DKPMh4JNx/" aria-label="Facebook">Facebook</a>
-        <a href="https://wa.me/34622319813" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
-      </div>
+  <div class="container">
+    <div class="contact-heading">
+      <p
+        class="section-kicker"
+        data-es="Visítanos"
+        data-en="Visit Us"
+      >
+        Visítanos
+      </p>
+
+      <h2
+        class="section-title"
+        data-es="Contacto & Ubicación"
+        data-en="Contact & Location"
+      >
+        Contacto & Ubicación
+      </h2>
+
+      <p
+        class="contact-intro"
+        data-es="Estamos deseando recibirte en Flame II. Reserva tu mesa y disfruta de nuestra cocina."
+        data-en="We look forward to welcoming you at Flame II. Book your table and enjoy our cuisine."
+      >
+        Estamos deseando recibirte en Flame II. Reserva tu mesa y disfruta de nuestra cocina.
+      </p>
     </div>
-    <div class="contact-map">
-      <iframe
-        title="Ubicación Flame II"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps?q=Av.+dels+Pins,+40,+03140+Guardamar+del+Segura,+Alicante&output=embed">
-      </iframe>
+
+    <div class="contact-grid">
+      <div class="contact-card contact-info">
+        <h3
+          data-es="Ven a conocernos"
+          data-en="Come and visit us"
+        >
+          Ven a conocernos
+        </h3>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon">⌖</span>
+            <div>
+              <strong
+                data-es="Dirección"
+                data-en="Address"
+              >
+                Dirección
+              </strong>
+
+              <span
+                data-es="Av. dels Pins, 40, 03140 Guardamar del Segura, Alicante"
+                data-en="Av. dels Pins, 40, 03140 Guardamar del Segura, Alicante"
+              >
+                Av. dels Pins, 40,<br>
+                03140 Guardamar del Segura,<br>
+                Alicante
+              </span>
+            </div>
+          </li>
+
+          <li>
+            <span class="contact-icon">☎</span>
+            <div>
+              <strong
+                data-es="Teléfono / WhatsApp"
+                data-en="Phone / WhatsApp"
+              >
+                Teléfono / WhatsApp
+              </strong>
+
+              <a
+                href="https://wa.me/34622319813"
+                target="_blank"
+                rel="noopener"
+              >
+                +34 622 319 813
+              </a>
+            </div>
+          </li>
+
+          <li>
+            <span class="contact-icon">◷</span>
+            <div>
+              <strong
+                data-es="Horario"
+                data-en="Opening hours"
+              >
+                Horario
+              </strong>
+
+              <span
+                data-es="Todos los días · 12:00 - 23:30"
+                data-en="Every day · 12:00 PM - 11:30 PM"
+              >
+                Todos los días · 12:00 - 23:30
+              </span>
+            </div>
+          </li>
+
+          <li>
+            <span class="contact-icon">✉</span>
+            <div>
+              <strong>Email</strong>
+
+              <a href="mailto:reservas@flameii.com">
+                reservas@flameii.com
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/flameiiguardamar?igsi=b3k5N3YyNXpnM2N2"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram Flame II Guardamar"
+          >
+            Instagram
+          </a>
+
+          <a
+            href="https://www.facebook.com/share/1DKPMh4JNx/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook Flame II Guardamar"
+          >
+            Facebook
+          </a>
+
+          <a
+            href="https://wa.me/34622319813"
+            target="_blank"
+            rel="noopener"
+            aria-label="WhatsApp Flame II Guardamar"
+          >
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-card contact-map-card">
+        <div class="map-label">
+          <span>⌖</span>
+          <span
+            data-es="Encuéntranos"
+            data-en="Find us"
+          >
+            Encuéntranos
+          </span>
+        </div>
+
+        <iframe
+          title="Ubicación Flame II"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Av.+dels+Pins,+40,+03140+Guardamar+del+Segura,+Alicante&output=embed">
+        </iframe>
+
+        <a
+          class="map-button"
+          href="https://www.google.com/maps/search/?api=1&query=Av.+dels+Pins,+40,+03140+Guardamar+del+Segura,+Alicante"
+          target="_blank"
+          rel="noopener"
+          data-es="Abrir en Google Maps"
+          data-en="Open in Google Maps"
+        >
+          Abrir en Google Maps
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -237,8 +424,20 @@
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
   <div class="container footer-inner">
-    <div class="logo footer-logo"><img src="img/logo.jpg" alt="Flame II Logo" class="logo-img"></div>
-    <p data-es="© 2026 Flame II · Carne a la Piedra · Mexicano · Italiano. Todos los derechos reservados." data-en="© 2026 Flame II · Stone-Grilled Meat · Mexican · Italian. All rights reserved.">&copy; 2026 Flame II · Carne a la Piedra · Mexicano · Italiano. Todos los derechos reservados.</p>
+    <div class="footer-logo">
+      <img src="img/logo.jpg" alt="Flame II Logo" class="footer-logo-img">
+
+      <span class="footer-logo-text">
+        FLAME <b>II</b>
+      </span>
+    </div>
+
+    <p
+      data-es="© 2026 Flame II · Carne a la Piedra · Mexicano · Italiano. Todos los derechos reservados."
+      data-en="© 2026 Flame II · Stone-Grilled Meat · Mexican · Italian. All rights reserved."
+    >
+      © 2026 Flame II · Carne a la Piedra · Mexicano · Italiano. Todos los derechos reservados.
+    </p>
   </div>
 </footer>
 
