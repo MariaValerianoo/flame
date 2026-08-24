@@ -453,6 +453,42 @@
 
 <!-- ===== MODAL MENU PANTALLA COMPLETA ===== -->
 <div class="menu-modal" id="menuModal">
+  <div class="allergen-notice">
+  <span class="allergen-notice-icon">⚠</span>
+
+  <div>
+    <strong
+      data-es="Información sobre alérgenos"
+      data-en="Allergen information"
+    >
+      Información sobre alérgenos
+    </strong>
+
+    <p
+      data-es="Nuestros platos pueden contener alérgenos o trazas por contaminación cruzada. Consulte al personal antes de realizar su pedido."
+      data-en="Our dishes may contain allergens or traces due to cross-contamination. Please ask our staff before placing your order."
+    >
+      Nuestros platos pueden contener alérgenos o trazas por contaminación cruzada.
+      
+    </p>
+  </div>
+</div>
+<div class="allergen-legend">
+  <span class="allergen-tag">🌾 <span data-es="Gluten" data-en="Gluten">Gluten</span></span>
+  <span class="allergen-tag">🦐 <span data-es="Crustáceos" data-en="Crustaceans">Crustáceos</span></span>
+  <span class="allergen-tag">🥚 <span data-es="Huevo" data-en="Egg">Huevo</span></span>
+  <span class="allergen-tag">🐟 <span data-es="Pescado" data-en="Fish">Pescado</span></span>
+  <span class="allergen-tag">🥜 <span data-es="Cacahuetes" data-en="Peanuts">Cacahuetes</span></span>
+  <span class="allergen-tag">🫘 <span data-es="Soja" data-en="Soy">Soja</span></span>
+  <span class="allergen-tag">🥛 <span data-es="Leche" data-en="Milk">Leche</span></span>
+  <span class="allergen-tag">🌰 <span data-es="Frutos de cáscara" data-en="Nuts">Frutos de cáscara</span></span>
+  <span class="allergen-tag">🌿 <span data-es="Apio" data-en="Celery">Apio</span></span>
+  <span class="allergen-tag">🟡 <span data-es="Mostaza" data-en="Mustard">Mostaza</span></span>
+  <span class="allergen-tag">⚪ <span data-es="Sésamo" data-en="Sesame">Sésamo</span></span>
+  <span class="allergen-tag">🍷 <span data-es="Sulfitos" data-en="Sulphites">Sulfitos</span></span>
+  <span class="allergen-tag">🌱 <span data-es="Altramuces" data-en="Lupin">Altramuces</span></span>
+  <span class="allergen-tag">🦑 <span data-es="Moluscos" data-en="Molluscs">Moluscos</span></span>
+</div>
   <div class="menu-modal-header">
     <span class="menu-modal-title" data-es="Nuestra Carta" data-en="Our Menu">Nuestra Carta</span>
     <button class="menu-modal-close" id="closeMenuBtn" aria-label="Cerrar menú">&times;</button>
@@ -482,6 +518,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pan de Ajo" data-en="Garlic Bread">Pan de Ajo</h4>
                   <p class="menu-item-desc" data-es="Garlic Bread" data-en="" >Garlic Bread</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">4,95 €</span>
               </div>
@@ -489,6 +529,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pan de Ajo Con Queso" data-en="Garlic Cheese Bread">Pan de Ajo Con Queso</h4>
                   <p class="menu-item-desc" data-es="Garlic Cheese Bread" data-en="" >Garlic Cheese Bread</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">5,95 €</span>
               </div>
@@ -496,6 +540,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pan con Alioli & Tomate" data-en="Bread Alioli & Tomato">Pan con Alioli & Tomate</h4>
                   <p class="menu-item-desc" data-es="Bread Alioli & Tomato" data-en="" >Bread Alioli & Tomato</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">5,00 €</span>
               </div>
@@ -503,6 +551,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Falafel con hummus" data-en="Falafel with Hummus">Falafel con hummus</h4>
                   <p class="menu-item-desc" data-es="Tortilla de garbanzo con hummus casero" data-en="Chickpea patty with homemade hummus" >Tortilla de garbanzo con hummus casero</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Sésamo">⚪</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">8,95 €</span>
               </div>
@@ -510,6 +561,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Guacamole con Tortilla" data-en="Guacamole with Tortilla">Guacamole con Tortilla</h4>
                   <p class="menu-item-desc" data-es="Homemade Guacamole with Tortilla" data-en="Homemade guacamole with tortilla chips" >Homemade Guacamole with Tortilla</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">7,95 €</span>
               </div>
@@ -517,6 +571,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Bruschetta Italiana" data-en="Italian Bruschetta">Bruschetta Italiana</h4>
                   <p class="menu-item-desc" data-es="Pan tostado con ajo, tomate, queso y aceite de oliva" data-en="Toasted bread with garlic, tomato, cheese and olive oil" >Pan tostado con ajo, tomate, queso y aceite de oliva</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">7,95 €</span>
               </div>
@@ -524,6 +582,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Gambas al ajillo" data-en="Garlic Prawns">Gambas al ajillo</h4>
                   <p class="menu-item-desc" data-es="Garlic Prawns" data-en="" >Garlic Prawns</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Crustáceos">🦐</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">11,95 €</span>
               </div>
@@ -531,6 +592,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pakora de pescado" data-en="Fish Pakora">Pakora de pescado</h4>
                   <p class="menu-item-desc" data-es="Pescado rebozado con harina de garbanzos y especias" data-en="Fish coated in chickpea flour and spices" >Pescado rebozado con harina de garbanzos y especias</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Pescado">🐟</span>
+                    <span class="allergen-mini" title="Moluscos">🦑</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">7,95 €</span>
               </div>
@@ -538,6 +604,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Croquetas de jamón" data-en="Ham Croquettes">Croquetas de jamón</h4>
                   <p class="menu-item-desc" data-es="Ham Croquettes" data-en="" >Ham Croquettes</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">7,95 €</span>
               </div>
@@ -545,6 +616,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Croquetas de setas" data-en="Mushroom Croquettes">Croquetas de setas</h4>
                   <p class="menu-item-desc" data-es="Mushroom Croquettes" data-en="" >Mushroom Croquettes</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">7,95 €</span>
               </div>
@@ -552,6 +627,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Camembert frito" data-en="Fried Camembert">Camembert frito</h4>
                   <p class="menu-item-desc" data-es="con salsa de arándanos" data-en="with cranberry sauce" >con salsa de arándanos</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Sulfitos">🍷</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">7,95 €</span>
               </div>
@@ -559,6 +639,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Cola de langostinos crujientes" data-en="Crispy Prawn Tails">Cola de langostinos crujientes</h4>
                   <p class="menu-item-desc" data-es="con mayonesa de chili" data-en="with chilli mayonnaise" >con mayonesa de chili</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Crustáceos">🦐</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">11,95 €</span>
               </div>
@@ -566,6 +651,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Nachos con queso" data-en="Nachos with Cheese">Nachos con queso</h4>
                   <p class="menu-item-desc" data-es="Nachos with Cheese" data-en="" >Nachos with Cheese</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">10,95 €</span>
               </div>
@@ -573,6 +662,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Nachos de carne" data-en="Beef Nachos">Nachos de carne</h4>
                   <p class="menu-item-desc" data-es="Beef Nachos" data-en="" >Beef Nachos</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">12,95 €</span>
               </div>
@@ -580,6 +673,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Calamar Andaluz con Alioli" data-en="Andalusian Squid with Alioli">Calamar Andaluz con Alioli</h4>
                   <p class="menu-item-desc" data-es="Andalusian squid with alioli" data-en="" >Andalusian squid with alioli</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Moluscos">🦑</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">11,95 €</span>
               </div>
@@ -594,6 +691,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Samosa de verdura" data-en="Vegetable Samosa">Samosa de verdura</h4>
                   <p class="menu-item-desc" data-es="Vegetable Samosa" data-en="" >Vegetable Samosa</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">5,95 €</span>
               </div>
@@ -601,6 +701,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Samosa de carne" data-en="Meat Samosa">Samosa de carne</h4>
                   <p class="menu-item-desc" data-es="Meat Samosa" data-en="" >Meat Samosa</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">6,95 €</span>
               </div>
@@ -615,6 +718,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pulpo al horno" data-en="Roasted Octopus">Pulpo al horno</h4>
                   <p class="menu-item-desc" data-es="Roasted Octopus" data-en="" >Roasted Octopus</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Moluscos">🦑</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -629,6 +735,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Rollitos primavera" data-en="Spring Rolls">Rollitos primavera</h4>
                   <p class="menu-item-desc" data-es="Spring Rolls" data-en="" >Spring Rolls</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Soja">🫘</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">6,95 €</span>
               </div>
@@ -636,6 +746,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Jalapeños rellenos de queso" data-en="Cheese-Stuffed Jalapeños">Jalapeños rellenos de queso</h4>
                   <p class="menu-item-desc" data-es="Cheese-Stuffed Jalapeños" data-en="" >Cheese-Stuffed Jalapeños</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">6,95 €</span>
               </div>
@@ -643,6 +757,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo Pakora" data-en="Chicken Pakora">Pollo Pakora</h4>
                   <p class="menu-item-desc" data-es="Chicken Pakora" data-en="" >Chicken Pakora</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">6,95 €</span>
               </div>
@@ -656,6 +773,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Ensalada César" data-en="Caesar Salad">Ensalada César</h4>
                   <p class="menu-item-desc" data-es="Lechuga variada, tomate, pollo, picatostes, parmesano con salsa César" data-en="Mixed lettuce, tomato, chicken, croutons, parmesan with Caesar dressing" >Lechuga variada, tomate, pollo, picatostes, parmesano con salsa César</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Pescado">🐟</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">12,95 €</span>
               </div>
@@ -663,6 +785,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Ensalada Griega" data-en="Greek Salad">Ensalada Griega</h4>
                   <p class="menu-item-desc" data-es="Pimiento rojo y verde, cebolla, aceitunas negras, pepino, maíz y queso feta" data-en="Red and green pepper, onion, black olives, cucumber, sweetcorn, feta cheese" >Pimiento rojo y verde, cebolla, aceitunas negras, pepino, maíz y queso feta</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">11,95 €</span>
               </div>
@@ -670,6 +795,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Ensalada de Burrata" data-en="Burrata Salad">Ensalada de Burrata</h4>
                   <p class="menu-item-desc" data-es="Tomates cherry con burrata fresca y pesto" data-en="Cherry tomatoes with fresh burrata and pesto" >Tomates cherry con burrata fresca y pesto</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">11,95 €</span>
               </div>
@@ -683,6 +811,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Flame Wrap" data-en="Flame Wrap">Flame Wrap</h4>
                   <p class="menu-item-desc" data-es="Tiras de pollo, lechuga, tomate y salsa de la casa" data-en="Chicken goujons, lettuce, tomato & house sauce" >Tiras de pollo, lechuga, tomate y salsa de la casa</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,95 €</span>
               </div>
@@ -690,6 +822,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="The Spicy Wrap" data-en="The Spicy Wrap">The Spicy Wrap</h4>
                   <p class="menu-item-desc" data-es="Tiras de pollo, jalapeños, lechuga y salsa picante" data-en="Chicken goujons, jalapeños, lettuce & spicy sauce" >Tiras de pollo, jalapeños, lechuga y salsa picante</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,95 €</span>
               </div>
@@ -697,6 +833,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="The Falafel Wrap" data-en="The Falafel Wrap">The Falafel Wrap</h4>
                   <p class="menu-item-desc" data-es="Falafel, lechuga, hummus, cebolla roja y salsa de la casa, servido con patatas fritas y ensalada" data-en="Falafel, lettuce, hummus, red onion & house sauce, served with fries & salad" >Falafel, lechuga, hummus, cebolla roja y salsa de la casa, servido con patatas fritas y ensalada</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Sésamo">⚪</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,95 €</span>
               </div>
@@ -710,6 +850,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Fajitas de Pollo" data-en="Chicken Fajitas">Fajitas de Pollo</h4>
                   <p class="menu-item-desc" data-es="Chicken Fajitas" data-en="" >Chicken Fajitas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -717,6 +860,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Fajitas de Ternera" data-en="Beef Fajitas">Fajitas de Ternera</h4>
                   <p class="menu-item-desc" data-es="Beef Fajitas" data-en="" >Beef Fajitas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -724,6 +870,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Fajitas de Verduras" data-en="Vegetable Fajitas">Fajitas de Verduras</h4>
                   <p class="menu-item-desc" data-es="Vegetable Fajitas" data-en="" >Vegetable Fajitas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,95 €</span>
               </div>
@@ -731,6 +880,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Fajitas de Gamba" data-en="Prawn Fajitas">Fajitas de Gamba</h4>
                   <p class="menu-item-desc" data-es="Prawn Fajitas" data-en="" >Prawn Fajitas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Crustáceos">🦐</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">16,95 €</span>
               </div>
@@ -738,6 +891,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Quesadilla de Pollo" data-en="Chicken Quesadilla">Quesadilla de Pollo</h4>
                   <p class="menu-item-desc" data-es="Chicken Quesadilla" data-en="" >Chicken Quesadilla</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -745,6 +902,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Quesadilla de Ternera" data-en="Beef Quesadilla">Quesadilla de Ternera</h4>
                   <p class="menu-item-desc" data-es="Beef Quesadilla" data-en="" >Beef Quesadilla</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,95 €</span>
               </div>
@@ -752,6 +913,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Burrito de Pollo" data-en="Chicken Burrito">Burrito de Pollo</h4>
                   <p class="menu-item-desc" data-es="servido con patatas fritas" data-en="served with fries" >servido con patatas fritas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -759,6 +923,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Burrito de Ternera" data-en="Beef Burrito">Burrito de Ternera</h4>
                   <p class="menu-item-desc" data-es="servido con patatas fritas" data-en="served with fries" >servido con patatas fritas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -773,6 +940,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Tacos de Pollo" data-en="Chicken Tacos">Tacos de Pollo</h4>
                   <p class="menu-item-desc" data-es="servido con patatas fritas" data-en="served with fries" >servido con patatas fritas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,95 €</span>
               </div>
@@ -780,6 +950,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Tacos de Ternera" data-en="Beef Tacos">Tacos de Ternera</h4>
                   <p class="menu-item-desc" data-es="servido con patatas fritas" data-en="served with fries" >servido con patatas fritas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -787,6 +960,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Enchiladas de Pollo" data-en="Chicken Enchiladas">Enchiladas de Pollo</h4>
                   <p class="menu-item-desc" data-es="sirve con arroz mexicano" data-en="served with Mexican rice" >sirve con arroz mexicano</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -794,6 +971,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Enchiladas de Ternera" data-en="Beef Enchiladas">Enchiladas de Ternera</h4>
                   <p class="menu-item-desc" data-es="sirve con arroz mexicano" data-en="served with Mexican rice" >sirve con arroz mexicano</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -807,6 +988,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Rissoto Fungi Porcini" data-en="Risotto Fungi Porcini">Rissoto Fungi Porcini</h4>
                   <p class="menu-item-desc" data-es="Arroz con salsa de trufa, setas y bacon" data-en="Rice with mushrooms, bacon in a truffle sauce" >Arroz con salsa de trufa, setas y bacon</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -814,6 +998,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Rissoto Pollo al Curry" data-en="Risotto Chicken Curry">Rissoto Pollo al Curry</h4>
                   <p class="menu-item-desc" data-es="Arroz con verduras, pollo y salsa curry" data-en="Rice with vegetables, chicken in a curry sauce" >Arroz con verduras, pollo y salsa curry</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,95 €</span>
               </div>
@@ -821,6 +1008,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Rissoto Fruti de Mare" data-en="Risotto Fruti di Mare">Rissoto Fruti de Mare</h4>
                   <p class="menu-item-desc" data-es="Arroz con mariscos y salsa Fruti de Mare" data-en="Rice with seafood & Fruti di Mare sauce" >Arroz con mariscos y salsa Fruti de Mare</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Moluscos">🦑</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -828,6 +1019,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Spaghetti Bolognese" data-en="Spaghetti Bolognese">Spaghetti Bolognese</h4>
                   <p class="menu-item-desc" data-es="Espaguetis en salsa de carne y tomate" data-en="Spaghetti in a beef and tomato sauce" >Espaguetis en salsa de carne y tomate</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">12,95 €</span>
               </div>
@@ -835,6 +1030,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Spaghetti Carbonara" data-en="Spaghetti Carbonara">Spaghetti Carbonara</h4>
                   <p class="menu-item-desc" data-es="Espaguetis con bacon, cebolla y salsa carbonara" data-en="Spaghetti with bacon, onion and carbonara sauce" >Espaguetis con bacon, cebolla y salsa carbonara</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">12,95 €</span>
               </div>
@@ -842,6 +1042,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Spaghetti Fruti di Mare" data-en="Spaghetti Fruti di Mare">Spaghetti Fruti di Mare</h4>
                   <p class="menu-item-desc" data-es="Espaguetis con marisco y salsa Fruti de Mare" data-en="Spaghetti with seafood & Fruti di Mare sauce" >Espaguetis con marisco y salsa Fruti de Mare</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Pescado">🐟</span>
+                    <span class="allergen-mini" title="Moluscos">🦑</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -849,6 +1054,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Spaghetti Aglio e Olio" data-en="Spaghetti Aglio e Olio">Spaghetti Aglio e Olio</h4>
                   <p class="menu-item-desc" data-es="Espaguetis con ajo y gambas" data-en="With prawns and garlic" >Espaguetis con ajo y gambas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Crustáceos">🦐</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -856,6 +1065,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Rigatoni Fungi Porcini" data-en="Rigatoni Fungi Porcini">Rigatoni Fungi Porcini</h4>
                   <p class="menu-item-desc" data-es="Rigatoni con salsa de trufa, setas y bacon" data-en="Rigatoni with mushrooms, bacon in a truffle sauce" >Rigatoni con salsa de trufa, setas y bacon</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -863,6 +1076,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Rigatoni Pollo Curry" data-en="Rigatoni Chicken Curry">Rigatoni Pollo Curry</h4>
                   <p class="menu-item-desc" data-es="Rigatoni con verduras, pollo y salsa curry" data-en="Rigatoni with vegetables, chicken in a curry sauce" >Rigatoni con verduras, pollo y salsa curry</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">12,95 €</span>
               </div>
@@ -870,6 +1087,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Rigatoni Salsa Pesto" data-en="Rigatoni with Pesto Sauce">Rigatoni Salsa Pesto</h4>
                   <p class="menu-item-desc" data-es="Rigatoni with Pesto Sauce" data-en="" >Rigatoni with Pesto Sauce</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Frutos de cáscara">🌰</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">10,95 €</span>
               </div>
@@ -877,6 +1099,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Rigatoni con Salmón" data-en="Rigatoni with Salmon">Rigatoni con Salmón</h4>
                   <p class="menu-item-desc" data-es="Rigatoni with Salmon" data-en="" >Rigatoni with Salmon</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Pescado">🐟</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -884,6 +1110,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Funghi Porcini con pollo al horno" data-en="Funghi Porcini Baked Chicken">Funghi Porcini con pollo al horno</h4>
                   <p class="menu-item-desc" data-es="Pollo al horno en salsa de trufa con setas" data-en="Baked chicken in truffle sauce with mushrooms" >Pollo al horno en salsa de trufa con setas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -891,6 +1121,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Lasagna Bolognese" data-en="Lasagna Bolognese">Lasagna Bolognese</h4>
                   <p class="menu-item-desc" data-es="Láminas de pasta horneada con bolognesa, bechamel y queso" data-en="Pasta sheets baked with bolognese, bechamel and cheese" >Láminas de pasta horneada con bolognesa, bechamel y queso</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,95 €</span>
               </div>
@@ -939,6 +1173,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Schnitzel de Cerdo" data-en="Pork Schnitzel">Schnitzel de Cerdo</h4>
                   <p class="menu-item-desc" data-es="con salsa al gusto de pimienta o champiñones, patatas fritas" data-en="with sauce of choice: pepper or mushroom, served with fries" >con salsa al gusto de pimienta o champiñones, patatas fritas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Frutos de cáscara">🌰</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -946,6 +1185,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Schnitzel de Pollo" data-en="Chicken Schnitzel">Schnitzel de Pollo</h4>
                   <p class="menu-item-desc" data-es="con salsa al gusto de pimienta o champiñones, patatas fritas" data-en="with sauce of choice: pepper or mushroom, served with fries" >con salsa al gusto de pimienta o champiñones, patatas fritas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Frutos de cáscara">🌰</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -953,6 +1197,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo a la Toscana" data-en="Tuscan Chicken">Pollo a la Toscana</h4>
                   <p class="menu-item-desc" data-es="Salsa de crema, tomate seco y parmesano, con patatas fritas" data-en="Cream sauce with sundried tomatoes and parmesan, served with fries" >Salsa de crema, tomate seco y parmesano, con patatas fritas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">16,95 €</span>
               </div>
@@ -960,6 +1207,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo a la plancha" data-en="Grilled Chicken">Pollo a la plancha</h4>
                   <p class="menu-item-desc" data-es="con salsa a elegir: pimienta, champiñones o roquefort" data-en="with sauce of choice: pepper, mushroom or roquefort" >con salsa a elegir: pimienta, champiñones o roquefort</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -967,6 +1217,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Solomillo de cerdo" data-en="Pork Fillet">Solomillo de cerdo</h4>
                   <p class="menu-item-desc" data-es="con salsa a elegir: pimienta, champiñones o roquefort" data-en="with sauce of choice: pepper, mushroom or roquefort" >con salsa a elegir: pimienta, champiñones o roquefort</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Frutos de cáscara">🌰</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">16,95 €</span>
               </div>
@@ -974,6 +1228,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Costillas de cerdo BBQ" data-en="BBQ Pork Ribs">Costillas de cerdo BBQ</h4>
                   <p class="menu-item-desc" data-es="Acompañado de patatas fritas" data-en="Accompanied with fries" >Acompañado de patatas fritas</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Sésamo">⚪</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -987,6 +1244,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo con Chile" data-en="Chilli Chicken">Pollo con Chile</h4>
                   <p class="menu-item-desc" data-es="servido con arroz, salsa de ajo y chiles" data-en="Served with rice, garlic and chilli sauce" >servido con arroz, salsa de ajo y chiles</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Frutos de cáscara">🌰</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">16,95 €</span>
               </div>
@@ -994,6 +1256,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo Tikka Masala" data-en="Chicken Tikka Masala">Pollo Tikka Masala</h4>
                   <p class="menu-item-desc" data-es="Marinado en especias suaves con yogurt, al horno" data-en="Marinated in mild spices with yogurt, oven baked" >Marinado en especias suaves con yogurt, al horno</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -1001,6 +1266,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo Curry" data-en="Chicken Curry">Pollo Curry</h4>
                   <p class="menu-item-desc" data-es="Marinado con hierbas tradicionales, salsa curry casera" data-en="Marinated and cooked with traditional herbs, homemade curry sauce" >Marinado con hierbas tradicionales, salsa curry casera</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">14,95 €</span>
               </div>
@@ -1008,6 +1276,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo a la Mantequilla" data-en="Butter Chicken">Pollo a la Mantequilla</h4>
                   <p class="menu-item-desc" data-es="Salsa de tomate, mantequilla y nata fresca" data-en="Tomato sauce, butter and fresh cream" >Salsa de tomate, mantequilla y nata fresca</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -1022,6 +1293,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo Korma" data-en="Chicken Korma">Pollo Korma</h4>
                   <p class="menu-item-desc" data-es="servido con arroz" data-en="served with rice" >servido con arroz</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Frutos de cáscara">🌰</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -1029,6 +1304,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo Madras" data-en="Chicken Madras">Pollo Madras</h4>
                   <p class="menu-item-desc" data-es="servido con arroz" data-en="served with rice" >servido con arroz</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">15,95 €</span>
               </div>
@@ -1042,6 +1320,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Salmón a la plancha" data-en="Grilled Salmon">Salmón a la plancha</h4>
                   <p class="menu-item-desc" data-es="Con salsa marinera y langostinos, verduras y patata asada" data-en="With marinara sauce and king prawns, grilled vegetables & roast potatoes" >Con salsa marinera y langostinos, verduras y patata asada</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Pescado">🐟</span>
+                    <span class="allergen-mini" title="Crustáceos">🦐</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">17,95 €</span>
               </div>
@@ -1049,6 +1331,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Lubina a la plancha" data-en="Grilled Sea Bass">Lubina a la plancha</h4>
                   <p class="menu-item-desc" data-es="Con salsa verde, verduras y patata asada" data-en="With green sauce, grilled vegetables & roast potatoes" >Con salsa verde, verduras y patata asada</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Pescado">🐟</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">16,95 €</span>
               </div>
@@ -1062,6 +1348,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Margherita" data-en="Margherita">Margherita</h4>
                   <p class="menu-item-desc" data-es="Queso y tomate" data-en="Cheese and tomato" >Queso y tomate</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">8,95 €</span>
               </div>
@@ -1069,6 +1359,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Vegetariana" data-en="Vegetarian">Vegetariana</h4>
                   <p class="menu-item-desc" data-es="Verduras de temporada, tomate y queso" data-en="Seasonal vegetables, tomato & cheese" >Verduras de temporada, tomate y queso</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">9,95 €</span>
               </div>
@@ -1076,6 +1370,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Barbacoa" data-en="Barbecue">Barbacoa</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, bacon, boloñesa, cebolla y pollo" data-en="Tomato, cheese, bacon, bolognese, onion & chicken" >Tomate, queso, bacon, boloñesa, cebolla y pollo</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">11,95 €</span>
               </div>
@@ -1083,6 +1381,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Prosciutto" data-en="Prosciutto">Prosciutto</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso y jamón" data-en="Tomato, cheese, ham" >Tomate, queso y jamón</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">10,95 €</span>
               </div>
@@ -1090,6 +1392,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Diavola" data-en="Diavola">Diavola</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, pepperoni y jalapeños" data-en="Tomato, cheese, pepperoni and jalapeños" >Tomate, queso, pepperoni y jalapeños</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">10,95 €</span>
               </div>
@@ -1097,6 +1403,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Calzone" data-en="Calzone">Calzone</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, champiñones, salami y jamón" data-en="Tomato, cheese, mushrooms, salami & ham" >Tomate, queso, champiñones, salami y jamón</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">11,95 €</span>
               </div>
@@ -1104,6 +1414,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Hawaiana" data-en="Hawaiian">Hawaiana</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, jamón y piña" data-en="Tomato, cheese, ham, pineapple" >Tomate, queso, jamón y piña</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">11,95 €</span>
               </div>
@@ -1111,6 +1425,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pollo" data-en="Chicken">Pollo</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, pollo, pimientos y cebolla" data-en="Tomato, cheese, chicken, peppers & onion" >Tomate, queso, pollo, pimientos y cebolla</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">10,95 €</span>
               </div>
@@ -1118,6 +1436,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Serrano" data-en="Serrano">Serrano</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, jamón serrano y rúcula" data-en="Tomato, cheese, serrano ham, rocket" >Tomate, queso, jamón serrano y rúcula</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">10,95 €</span>
               </div>
@@ -1125,6 +1447,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Quattro Stagioni" data-en="Quattro Stagioni">Quattro Stagioni</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, champiñones, jamón, salami y pimientos" data-en="Tomato, cheese, mushrooms, ham, salami, peppers" >Tomate, queso, champiñones, jamón, salami y pimientos</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">12,95 €</span>
               </div>
@@ -1132,6 +1458,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Mexican Pizza" data-en="Mexican Pizza">Mexican Pizza</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, pollo, pepperoni, jalapeños, pimientos y cebolla" data-en="Tomato, cheese, chicken, pepperoni, jalapeños, peppers and onions" >Tomate, queso, pollo, pepperoni, jalapeños, pimientos y cebolla</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">12,95 €</span>
               </div>
@@ -1139,6 +1469,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Tonno" data-en="Tonno">Tonno</h4>
                   <p class="menu-item-desc" data-es="Tomate, queso, cebolla y atún" data-en="Tomato, cheese, onion, tuna" >Tomate, queso, cebolla y atún</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Pescado">🐟</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">10,95 €</span>
               </div>
@@ -1152,6 +1487,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Burger Street" data-en="Burger Street">Burger Street</h4>
                   <p class="menu-item-desc" data-es="Tomate, cebolla, lechuga, bacon, queso, huevo frito y pan brioche" data-en="Tomato, onion, lettuce, bacon, cheese, fried egg, brioche bun" >Tomate, cebolla, lechuga, bacon, queso, huevo frito y pan brioche</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,90 €</span>
               </div>
@@ -1159,6 +1499,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Burger Deliciosa" data-en="Burger Deliciosa">Burger Deliciosa</h4>
                   <p class="menu-item-desc" data-es="Bacon, queso cheddar, cebolla caramelizada, mayo trufada y pan brioche" data-en="Bacon, cheddar cheese, caramelized onion, truffle mayo, brioche bun" >Bacon, queso cheddar, cebolla caramelizada, mayo trufada y pan brioche</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">13,90 €</span>
               </div>
@@ -1166,6 +1511,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Boss" data-en="Boss">Boss</h4>
                   <p class="menu-item-desc" data-es="Doble carne, doble bacon, salsa big mac, doble queso cheddar, lechuga, tomate, cebolla" data-en="Double beef, double bacon, Big Mac sauce, double cheddar, lettuce, tomato, onion" >Doble carne, doble bacon, salsa big mac, doble queso cheddar, lechuga, tomate, cebolla</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">16,50 €</span>
               </div>
@@ -1173,6 +1523,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="La Txuleta" data-en="La Txuleta">La Txuleta</h4>
                   <p class="menu-item-desc" data-es="Txuletón de vaca, queso ahumado, cebolla caramelizada, salsa Flame, mermelada de bacon y torrezno" data-en="Beef ribeye, smoked cheese, caramelized onion, Flame sauce, bacon jam, torrezno" >Txuletón de vaca, queso ahumado, cebolla caramelizada, salsa Flame, mermelada de bacon y torrezno</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">16,50 €</span>
               </div>
@@ -1180,6 +1534,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Chicken Burger" data-en="Chicken Burger">Chicken Burger</h4>
                   <p class="menu-item-desc" data-es="Tomate, cebolla, lechuga y salsa" data-en="Tomato, onion, lettuce and sauce" >Tomate, cebolla, lechuga y salsa</p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">9,95 €</span>
               </div>
@@ -1193,6 +1551,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Salsa Pimienta" data-en="Pepper Sauce">Salsa Pimienta</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">3,00 €</span>
               </div>
@@ -1200,6 +1561,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Salsa Champiñón" data-en="Mushroom Sauce">Salsa Champiñón</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">3,00 €</span>
               </div>
@@ -1207,6 +1571,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Alioli" data-en="Alioli">Alioli</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">3,00 €</span>
               </div>
@@ -1214,6 +1581,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Salsa Roquefort" data-en="Roquefort Sauce">Salsa Roquefort</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">3,00 €</span>
               </div>
@@ -1221,6 +1591,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Salsa Miel Mostaza" data-en="Honey Mustard Sauce">Salsa Miel Mostaza</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Mostaza">🟡</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">3,00 €</span>
               </div>
@@ -1256,6 +1629,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Aros de Cebolla" data-en="Onion Rings">Aros de Cebolla</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">3,95 €</span>
               </div>
@@ -1269,6 +1645,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Spaghetti Bolognesa" data-en="Spaghetti Bolognese">Spaghetti Bolognesa</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">7,95 €</span>
               </div>
@@ -1276,6 +1656,11 @@
                 <div class="menu-item-info">
                   <h4 data-es="Spaghetti Carbonara" data-en="Spaghetti Carbonara">Spaghetti Carbonara</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">7,95 €</span>
               </div>
@@ -1283,6 +1668,9 @@
                 <div class="menu-item-info">
                   <h4 data-es="Spaghetti con Salsa de Tomate" data-en="Spaghetti with Tomato Sauce">Spaghetti con Salsa de Tomate</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">6,95 €</span>
               </div>
@@ -1290,6 +1678,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Pizza Margherita" data-en="Pizza Margherita">Pizza Margherita</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Leche">🥛</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">6,95 €</span>
               </div>
@@ -1297,6 +1689,10 @@
                 <div class="menu-item-info">
                   <h4 data-es="Chicken Nuggets con Patatas" data-en="Chicken Nuggets & Chips">Chicken Nuggets con Patatas</h4>
                   <p class="menu-item-desc" data-es="" data-en="" style="display:none"></p>
+                  <div class="menu-allergens">
+                    <span class="allergen-mini" title="Gluten">🌾</span>
+                    <span class="allergen-mini" title="Huevo">🥚</span>
+                  </div>
                 </div>
                 <span class="menu-item-price">6,95 €</span>
               </div>
