@@ -331,9 +331,13 @@ h4 {
 .hero-subtitle {
   max-width: 650px;
   margin: 0 auto 38px;
-  color: rgba(248, 238, 220, 0.86);
-  font-size: 1.2rem;
-  line-height: 1.6;
+  color: rgba(248, 238, 220, 0.9);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 .hero-buttons {
